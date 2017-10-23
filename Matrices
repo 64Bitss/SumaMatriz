@@ -1,0 +1,30 @@
+#include<iostream>
+
+int main(int arg, char** argv){
+	
+	int w,x,y,z;
+ 	char a[3][3], b[3][3], c[3][3];
+ 	
+ 	printf("Ingrese los valores de la matriz X\n");
+ 	
+ 		for(w=0;w<=3;w++){
+    
+ 			for(x=0;x<=3;x++){
+      
+ 				printf("Ingrese los valores para la Matriz A\n");
+        
+ 				scanf("%i",&a[w][x]);
+			 }
+		 }
+ 			return 0;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
