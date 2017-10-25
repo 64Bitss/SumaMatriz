@@ -1,30 +1,30 @@
-#include<iostream>
+#include<stdio.h>
 
-int main(int arg, char** argv){
-	
-	int w,x,y,z;
- 	char a[3][3], b[3][3], c[3][3];
- 	
- 	printf("Ingrese los valores de la matriz X\n");
- 	
- 		for(w=0;w<=3;w++){
-    
- 			for(x=0;x<=3;x++){
-      
- 				printf("Ingrese los valores para la Matriz A\n");
-        
- 				scanf("%i",&a[w][x]);
-			 }
-		 }
- 			return 0;
-	
-	
-	
-	
-	
-	
-	
-	
-	
+int main(){
+    int i=0,j=0;
+
+    //Matriz con valores asignados
+    int Matriz [3][3] = {{1,2,3},{1,2,3},{1,2,3}};
+
+    //Matriz con valores ingresados por el usuario
+    /*int Matriz [3][3];*/
+
+    printf("Ingrese los valores para la Matriz/Tabla de 3 x 3\n\n");
+ 
+   //Ciclo de llenado de la matriz
+    for(i=0;i<3;i++){
+            
+        for(j=0;j<3;j++){
+            
+            printf("Elemento[%d, %d] : ", i, j);
+            /*scanf("%d\n", &Matriz[i][j]);*/
+            printf("{| %d |\n}",Matriz[i][j]);
+        }
+    }
+
+
+return 0;
+}
+
 	
 	
